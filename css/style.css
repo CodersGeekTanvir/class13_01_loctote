@@ -16,12 +16,8 @@ body{
 
 
 /* Header Starts */
-header {
 
-    padding: 0px 0 75px 0;
-    background-color: #F3F0EB;
 
-}
 
 .top_header {
     padding: 5px 0;
@@ -29,7 +25,9 @@ header {
 
 .top_header_left {}
 
-.top_header_left p {}
+.top_header_left p {
+    margin: 0;
+}
 
 .top_header_left p a {
 
@@ -69,7 +67,9 @@ header {
 .bottom_header{
   
     position: relative;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F3F0EB;
 }
 .navbar {
        
@@ -81,7 +81,11 @@ header {
     top: 50%;
     right: 50%;
     transform: translate(50%,-50%);
+     width: 150px;
 }
+
+
+
 /* Bottom Header */
 
 

@@ -22,6 +22,14 @@
 
  /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
+
+    .top_header_left {
+        text-align: center;
+    }
+    .top_header_right ul {
+        justify-content: center !important;
+    }
+
     .discount p {
         font-size: 13px;
     }
